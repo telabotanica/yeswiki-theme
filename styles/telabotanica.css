@@ -57,5 +57,27 @@
 
 .active-link {
  background-color: rgb(238,238,238);
- color: rgb(250,171,60);
+ /*color: rgb(250,171,60);*/
+}
+
+/* some nasty fixes for theme upgrade */
+.navbar .navbar-search button.search-btn {
+	float: none;
+}
+
+.navbar .navbar-search button i {
+	background-image: none;
+}
+
+.topnavpage .nav i.icon-home {
+	background-image: none;
+}
+
+.navbar .navbar-search input.search-query {
+	height: 30px;
+	width: 206px;
+}
+
+a > i.glyphicon {
+	background-image: none;
 }
